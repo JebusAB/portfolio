@@ -1,0 +1,213 @@
+body{
+    margin: 0 0 0 0;
+}
+
+table.headertable.td{
+    border: 1px solid black;
+    font-family:Monaco,monospace;
+}
+
+table.headertable{
+    background-image: linear-gradient(lightgrey, darkgray, lightgrey);
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 3px groove black;
+    vertical-align: center;
+    position: fixed;
+    margin: 0 0 0 0;
+    align-content: center;
+}
+
+.content{
+    padding: 45px 60px 60px 60px;
+    background-color: rgb(225,225,225);
+    background-image: url("../transparent_texture.png");
+    font-family: My Gill Sans, Lato, sans-serif;
+}
+
+red{
+    color: red;
+    font-family: "Times New Roman", serif;
+}
+
+grn{
+    color:green;
+    font-family: "Times New Roman", serif;
+
+}
+
+blu{
+    color:blue;
+    font-family: "Times New Roman", serif;
+}
+
+wht{
+    color:whitesmoke;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-family: "Times New Roman", serif;
+}
+
+.headerbutton{
+    width: 100%;
+    height: 50px;
+    border-top: 0;
+    border-bottom: 0;
+    color: black;
+    background: ghostwhite;
+    border-radius: 25px;
+    vertical-align: center;
+}
+
+p2
+{
+    font-weight: bold;
+}
+
+h1
+{
+    font-family: IMPACT, fantasy;
+    font-weight: normal;
+}
+
+.rainbow
+{
+        text-align: center;
+        text-decoration: underline;
+        font-size: 26px;
+        font-family: monospace;
+        letter-spacing: 5px;
+        animation: colorRotate 6s linear 0s infinite;
+}
+
+    @keyframes colorRotate {
+        from {
+            color: #6666ff;
+        }
+        10% {
+            color: #0099ff;
+        }
+        50% {
+            color: #00ff00;
+        }
+        75% {
+            color: #ff3399;
+        }
+        100% {
+            color: #6666ff;
+        }
+    }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    vertical-align: center;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: ghostwhite;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+    vertical-align: center;
+}
+
+.dropdown-content2{
+    display: none;
+    position: absolute;
+    background-color: ghostwhite;
+    min-width: 90vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+
+img.mini
+{
+    width: 40px;
+    height: 25px;
+}
+
+img.vignette
+{
+    width: 225px;
+    height: 300px;
+}
+
+.languagepicker {
+    display: inline-block;
+    padding: 0;
+    height: 40px;
+    overflow: hidden;
+    transition: all .3s ease;
+    margin: 0 50px 10px 0;
+    vertical-align: top;
+    float: left;
+}
+
+.languagepicker:hover {
+    /* don't forget the 1px border */
+    height: 81px;
+}
+
+.languagepicker a{
+    text-decoration: none;
+}
+
+.languagepicker li {
+    display: block;
+    padding: 0px 20px;
+    line-height: 40px;
+}
+
+.languagepicker li:hover{
+    background-color: #EEE;
+}
+
+.languagepicker a:first-child li {
+    border: none;
+}
+
+.languagepicker li img {
+    margin-right: 5px;
+}
+
+.roundborders {
+    border-radius: 5px;
+}
+
+.large:hover {
+    /*
+    don't forget the 1px border!
+    The first language is 40px heigh,
+    the others are 41px
+    */
+    height: 245px;
+}
+
+.footerclass{
+    padding-left: 10%;
+    border-top: 3px groove black;
+    background: floralwhite;
+}
+
+p.bold
+{
+    font-weight: bold;
+}
